@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #010e80;
+	display: table;
+    width: 100%;
+}
+
+nav li{
+    display: inline-block;
+    color: white;
+    padding: 20px;
+}
+
+.sosmed-footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #010e80;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.sosmed-footer img{
+    width: 50px;
+    margin: 10px;
+}
