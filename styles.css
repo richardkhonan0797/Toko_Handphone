@@ -78,7 +78,7 @@ footer img{
 .gambar-banner{
     position: relative;
     height: 570px;
-    background-image: url(./Images/Gambar-banner.jpg); 
+    background-image: url(./img/Gambar-banner.jpg); 
     background-size: cover;
 }
 
