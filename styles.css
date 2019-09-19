@@ -94,7 +94,51 @@ footer img{
 }
 
 .penjelasan{
+    cursor: pointer;
     text-align: center;
+    margin: 20px 40px;
+    width: 70%;
+    position: relative;
+    left: 12%;
+    transition: all 0.5s;
+}
+
+.penjelasan .top-left {
+	content:" ";
+	width:10px;
+	height:10px;
+	position:absolute;
+    transition:all 1s;
+    top:0px;
+	left:0px;
+	border-top:5px solid black;
+    border-left:5px solid black;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.penjelasan .bot-right{
+    content:" ";
+	width:10px;
+	height:10px;
+	position:absolute;
+    transition:all 1s;
+    bottom:0px;
+	right:0px;
+	border-bottom:5px solid black;
+    border-right:5px solid black;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.penjelasan:hover .top-left{
+    width: 100%;
+    height: 100%;
+}
+
+.penjelasan:hover .bot-right{
+    width: 100%;
+    height: 100%;
 }
 
 .penjelasan .col{
@@ -102,6 +146,11 @@ footer img{
     margin: 20px 20px 50px 20px;
     max-width: 200px;
     padding-top: 50px;
+    transition: transform 0.3s;
+}
+
+.penjelasan:hover .col{
+    transform: scale(1.2);
 }
 
 .penjelasan .col h2{
@@ -113,8 +162,51 @@ footer img{
 }
 
 .keunggulan{
+    cursor: pointer;
     text-align: center;
     margin: 20px 40px;
+    width: 70%;
+    position: relative;
+    left: 12%;
+    transition: all 0.5s;
+}
+
+.keunggulan .top-left {
+	content:" ";
+	width:10px;
+	height:10px;
+	position:absolute;
+    transition:all 1s;
+    top:0px;
+	left:0px;
+	border-top:5px solid black;
+    border-left:5px solid black;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.keunggulan .bot-right{
+    content:" ";
+	width:10px;
+	height:10px;
+	position:absolute;
+    transition:all 1s;
+    bottom:0px;
+	right:0px;
+	border-bottom:5px solid black;
+    border-right:5px solid black;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.keunggulan:hover .top-left{
+    width: 100%;
+    height: 100%;
+}
+
+.keunggulan:hover .bot-right{
+    width: 100%;
+    height: 100%;
 }
 
 .keunggulan .col{
@@ -122,6 +214,11 @@ footer img{
     display: inline-block;
     margin: 20px 20px 50px 20px;
     padding-top: 35px;
+    transition: transform 0.3s;
+}
+
+.keunggulan:hover .col{
+    transform: scale(1.2);
 }
 
 .keunggulan h2{
@@ -129,14 +226,68 @@ footer img{
 }
 
 .deskripsi-keunggulan{
+    cursor: pointer;
+    Margin-top: 50px;
+    margin-bottom: 50px; 
+    width: 70%;
     position: relative;
-    width: 52%;
-    left: 300px;
+    left: 15.5%;
+    transition: all 0.5s;
+}
+
+.deskripsi-keunggulan .top-left {
+	content:" ";
+	width:10px;
+	height:10px;
+	position:absolute;
+    transition:all 1s;
+    top:0px;
+	left:0px;
+	border-top:5px solid black;
+    border-left:5px solid black;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.deskripsi-keunggulan .bot-right{
+    content:" ";
+	width:10px;
+	height:10px;
+	position:absolute;
+    transition:all 1s;
+    bottom:0px;
+	right:0px;
+	border-bottom:5px solid black;
+    border-right:5px solid black;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.deskripsi-keunggulan:hover .top-left{
+    width: 100%;
+    height: 100%;
+}
+
+.deskripsi-keunggulan:hover .bot-right{
+    width: 100%;
+    height: 100%;
 }
 
 .deskripsi-keunggulan .col{
-    margin-bottom: 40px;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+    max-width: 500px;
+    margin: px 20px 50px 20px;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    transition: transform 0.3s;
 }
+
+.deskripsi-keunggulan:hover .col{
+    transform: scale(1.2);
+}
+
 
 .footer-left {
     display: inline-block;
