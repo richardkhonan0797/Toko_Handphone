@@ -6,30 +6,23 @@ body {
   background-image: url("https://sensientpharma.com/wp-content/uploads/2019/03/marble-1.jpg");
 }
 
-header {
-  margin: 25px 10px;
-}
-
 h1 {
   font-size: 80px;
-  border-bottom: 1px solid #91dd77;
-  font-family: Georgia;
 }
 
 h2 {
-  margin-left: 10px;
+  /* margin-left: 10px; */
   font-size: 40px;
-  font-family: Georgia;
+  background-color: #91dd77;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
 }
 
 header p {
   font-size: 20px;
   margin-top: 20px;
-  font-family: Arial;
-}
-
-p {
-  font-family: Arial;
 }
 
 section {
@@ -123,3 +116,18 @@ img {
   width: 33%;
   display: inline-block;
 } */
+
+#banner {
+  background-image: url("Images/laptop-banner3.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+#banner .banner-content h1 {
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
