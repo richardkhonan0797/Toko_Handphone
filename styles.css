@@ -1,39 +1,136 @@
 *{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-image: url("https://sensientpharma.com/wp-content/uploads/2019/03/marble-1.jpg");
 }
 
 #logo-toko{
-    width:100px;
-    margin-top:
+    width: 50px;
+    position: relative;
+    top: 10px;
 }
 
-nav ul{
+nav {
     margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #010e80;
-	display: table;
+	background-color: #91dd77;
     width: 100%;
+    height: 100%;
+}
+
+nav ul{
+    width: 100%;
+    text-align: center;
 }
 
 nav li{
     display: inline-block;
-    color: white;
+    color: #000;
     padding: 20px;
+    margin : 0 70px;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-.sosmed-footer{
-    position: fixed;
-    bottom: 0;
-    background-color: #010e80;
+nav li:hover{
+    background-color: #ddc377;
+}
+
+.judul{
+    background-color: #91dd77;
+    width: 100%;
+    height: 50px;  
+    text-align: center;
+}
+
+.judul h2{
+    padding-top: 12px;
+}
+
+footer{
+    background-color: #91dd77;
     width: 100%;
     font-size: 20px;
     color: white;
+    text-align: center;
 }
 
-.sosmed-footer img{
-    width: 50px;
+footer p{
+    position: relative;
+    display: inline;
+    bottom: 15px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
     margin: 10px;
+}
+    
+.gambar-banner{
+    position: relative;
+    height: 570px;
+    background-image: url(./Images/Gambar-banner.jpg); 
+    background-size: cover;
+}
+
+.gambar-banner h1{
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    left:25%;
+    top:10%;
+}
+
+.penjelasan{    
+    text-align: center;
+}
+
+.penjelasan .col{
+    display: inline-block;
+    margin: 20px 20px 50px 20px;
+    max-width: 200px;
+    padding-top: 50px;
+}
+
+.penjelasan .col h2{
+    text-transform: uppercase;
+}
+
+.penjelasan img{
+    width: 100px;
+}
+
+.keunggulan{
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.keunggulan .col{
+    max-width: 200px;
+    display: inline-block;
+    margin: 20px 20px 50px 20px;
+    padding-top: 35px;
+}
+
+.keunggulan h2{
+    margin-bottom: 10px;
+}
+
+.deskripsi-keunggulan{
+    position: relative; 
+    width: 52%;
+    left: 300px;
+}
+
+.deskripsi-keunggulan .col{
+    margin-bottom: 40px;
 }
