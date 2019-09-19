@@ -8,14 +8,36 @@
         <nav>
             <ul>
                 <a href="./index.html"><li>Home</li></a>
-                <a href="#"><li>Handphone</li></a>
+                <a href="./products.html"><li>Handphone</li></a>
                 <img id="logo-toko" src="https://www.rxbar.com/media/wysiwyg/store-logos/target_white_new.png">
                 <a href="#"><li>Laptop</li></a>
                 <a href="#"><li>Custom PC</li></a>
             </ul>
         </nav>
+        <div class="basket">
+            <img src="./img/shopping-cart-icon-white-3.jpg.png">
+        </div>
         <div id="banner">
             <h1>CUSTOMIZE YOUR DREAM PC!</h1>
+        </div>
+        <div class="judul">
+            <h2>Rekomendasi PC Setup</h2>
+        </div>
+        <div id="recommendation">
+            <div id="home-pc" class="pc-setup">
+                <div class="rec-info">
+                    <h2>Home PC Mulai dari 4 Jutaan</h2>
+                    <p>PC terbaik untuk kebutuhan rumahan</p>
+                    <button type="button">Beli</button>
+                </div>
+            </div>
+            <div id="gaming-pc" class="pc-setup">
+                    <div class="rec-info">
+                    <h2>Gaming PC Mulai dari 8 Jutaan</h2>
+                    <p>Nikmati pengalaman terbaik bermain game</p>
+                    <button type="button">Beli</button>
+                </div>
+            </div>
         </div>
         <div class="container">
             <div class="component comp-select">
@@ -56,9 +78,30 @@
                 </select>
             </div>
             <div class="component comp-select">
+                <label for="gpu">Graphic Card</label>
+                <select id="gpu" class="cust-select" name="gpu">
+                    <option value="" disabled selected>---Pilih graphic card---</option>
+                    <option value="nvdia1">Nvidia GeForce GTX 1080 Ti</option>
+                    <option value="nvidia2">Nvidia GeForce RTX 2080</option>
+                    <option value="amd1">AMD Radeon RX 5700 XT</option>
+                    <option value="amd2">AMD Radeon VII</option>
+                </select>
+            </div>
+            <div class="component comp-select">
                 <label for="monitor">Monitor</label>
                 <select id="monitor" class="cust-select" name="monitor">
                     <option value="" disabled selected>---Pilih monitor---</option>
+                    <option value="acer-15">Acer 15.6"</option>
+                    <option value="acer-21">Acer 21.5"</option>
+                    <option value="aoc-21">AOC 21.5"</option>
+                    <option value="aoc-27">AOC 27"</option>
+                    <option value="lg-32">LG 32"</option>
+                </select>
+            </div>
+            <div class="component comp-select">
+                <label for="kb">Keyboard</label>
+                <select id="kb" class="cust-select" name="monitor">
+                    <option value="" disabled selected>---Pilih keyboard---</option>
                     <option value="acer-15">Acer 15.6"</option>
                     <option value="acer-21">Acer 21.5"</option>
                     <option value="aoc-21">AOC 21.5"</option>
