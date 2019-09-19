@@ -5,11 +5,19 @@
         <link href="styleCustom.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div id="topbar"></div>
-        </header>
+        <nav>
+            <ul>
+                <a href="./index.html"><li>Home</li></a>
+                <a href="#"><li>Handphone</li></a>
+                <img id="logo-toko" src="https://www.rxbar.com/media/wysiwyg/store-logos/target_white_new.png">
+                <a href="#"><li>Laptop</li></a>
+                <a href="#"><li>Custom PC</li></a>
+            </ul>
+        </nav>
+        <div id="banner">
+            <h1>CUSTOMIZE YOUR DREAM PC!</h1>
+        </div>
         <div class="container">
-            <h1>Custom PC Impianmu!</h1>
             <div class="component comp-select">
                 <label for="procie">Processor</label>
                 <select id="procie" class="cust-select" name="procie">
@@ -61,17 +69,17 @@
 
             <div id="perakitan">
                 <span>Include perakitan:</span>
-                <input id="ya" name="rakit" type="radio" required>
-                <label id="ya">Ya</label>
-                <input id="tidak" name="rakit" type="radio">
-                <label id="tidak">Tidak</label> 
+                <input id="ya" name="rakit" class="radiocheck" type="radio" required>
+                <label for="ya">Ya</label>
+                <input id="tidak" name="rakit" class="radiocheck" type="radio">
+                <label for="tidak">Tidak</label> 
             </div>
 
             <div id="optional">
                 <span>Optional:</span>
-                <input id="asuransi" name="asuransi" type="checkbox">
+                <input id="asuransi" name="asuransi" class="check" type="checkbox">
                 <label for="asuransi">Asuransi</label>
-                <input id="pack-kayu" name="pack-kayu" type="checkbox">
+                <input id="pack-kayu" name="pack-kayu" class="check" type="checkbox">
                 <label for="pack-kayu">Packing kayu</label>
             </div>
 
