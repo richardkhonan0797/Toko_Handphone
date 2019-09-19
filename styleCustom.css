@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#topbar{
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #91dd77;
+}
+
+.container {
+    width: 60%;
+    margin: 10px auto;
+    border: 2px solid #91dd77;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+h1 {
+    font-family: "Georgia", "Arial", serif;
+    text-align: center;
+}
+
+.component {
+    margin-bottom: 40px;
+}
+
+label, select, #optional {
+    display: inline-block;
+}
+
+select {
+    float: right;
+    width: 80%;
+}
+
+#additional-request {
+    text-align: center;
+}
+
+#additional-request label{
+    margin-bottom: 10px;
+}
+
+#optional span {
+    padding-right: 100px;
+}
+
+#perakitan {
+    margin-bottom: 10px;
+}
+
+#perakitan span {
+    margin-right: 60px;
+}
+
+#confirm {
+    margin: 10px auto;
+}
+
+#confirm input {
+    display: block;
+    margin: 10px auto;
+}
+
+.cust-select {
+    padding: 10px 5px;
+    background-color: #fff;
+    border: 1px solid #91dd77;
+    font-size: 16px;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 50px;
+    background: transparent;
+    z-index:1;
+    position: relative;
+}
+
+.comp-select::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #91dd77;
+    background-image: url("./img/arrow-down-sign-to-navigate.png");
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    z-index: 0;
+}
+

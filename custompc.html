@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customize Your PC</title>
+        <link href="styleCustom.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div id="topbar"></div>
+        </header>
+        <div class="container">
+            <h1>Custom PC Impianmu!</h1>
+            <div class="component comp-select">
+                <label for="procie">Processor</label>
+                <select id="procie" class="cust-select" name="procie">
+                    <option value="" disabled selected>---Pilih processor---</option>
+                    <option value="i3">Core i3</option>
+                    <option value="i5">Core i5</option>
+                    <option value="i7">Core i7</option>
+                </select>
+            </div>
+            <div class="component comp-select">
+                <label for="mobo">Motherboard</label>
+                <select id="mobo" class="cust-select" name="mobo">
+                    <option value="" disabled selected>---Pilih motherboard---</option>
+                    <option value="asrock">ASRock B95M-DGS (LGA1150, B85, DDR3)</option>
+                    <option value="asus">Asus H81M-V Plus (LGA1150, Intel H81, DDR3)</option>
+                    <option value="biostar">Biostar (LGA1150, Intel H81, DDR3)</option>
+                </select>
+            </div>
+            <div class="component comp-select">
+                <label for="ram">RAM</label>
+                <select id="ram" class="cust-select" name="ram">
+                    <option value="" disabled selected>---Pilih RAM---</option>
+                    <option value="corsair">Corsair DDR3 Vengeance Black PC12800 16GB (2X8GB)</option>
+                    <option value="team">Team Elite Plus</option>
+                    <option value="venom">VenomRX</option>
+                </select>
+            </div>
+            <div class="component comp-select">
+                <label for="storage">Storage</label>
+                <select id="storage" class="cust-select" name="storage">
+                    <option value="" disabled selected>---Pilih storage---</option>
+                    <option value="hdd-500">Harddisk 500GB</option>
+                    <option value="hdd-1000">Harddisk 1TB</option>
+                    <option value="ssd-120">SSD 120GB</option>
+                    <option value="ssd-240">SSD 240GB</option>
+                </select>
+            </div>
+            <div class="component comp-select">
+                <label for="monitor">Monitor</label>
+                <select id="monitor" class="cust-select" name="monitor">
+                    <option value="" disabled selected>---Pilih monitor---</option>
+                    <option value="acer-15">Acer 15.6"</option>
+                    <option value="acer-21">Acer 21.5"</option>
+                    <option value="aoc-21">AOC 21.5"</option>
+                    <option value="aoc-27">AOC 27"</option>
+                    <option value="lg-32">LG 32"</option>
+                </select>
+            </div>
+
+            <div id="perakitan">
+                <span>Include perakitan:</span>
+                <input id="ya" name="rakit" type="radio" required>
+                <label id="ya">Ya</label>
+                <input id="tidak" name="rakit" type="radio">
+                <label id="tidak">Tidak</label> 
+            </div>
+
+            <div id="optional">
+                <span>Optional:</span>
+                <input id="asuransi" name="asuransi" type="checkbox">
+                <label for="asuransi">Asuransi</label>
+                <input id="pack-kayu" name="pack-kayu" type="checkbox">
+                <label for="pack-kayu">Packing kayu</label>
+            </div>
+
+            <div id="additional-request">
+                <label for="notes">Catatan khusus:</label>
+                <br>
+                <textarea id="notes" names="notes" cols="40" rows="10" placeholder="Tuliskan catatan jika ada"></textarea>
+            </div>
+            <div id="confirm">
+                <input  type="submit" value="Submit">
+            </div>
+            
+        </form>
+        </div>
+        <footer>
+            <div id="foot"></div>
+        </footer>
+        
+    </body>
+</html>
