@@ -68,11 +68,13 @@ footer p{
     position: relative;
     display: inline;
     bottom: 15px;
+    vertical-align: middle;
+    margin: 5px;
 }
 
 footer img{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
     
@@ -134,4 +136,25 @@ footer img{
 
 .deskripsi-keunggulan .col{
     margin-bottom: 40px;
+}
+
+.footer-left {
+    display: inline-block;
+    margin: 50px;
+    text-align: left;
+    vertical-align:top;
+}
+
+.footer-address {
+    display: inline;
+}
+
+.footer-right {
+    display: inline-block;
+    margin:50px;
+}
+
+#footer-map {
+    height: 500px;
+    width: 100%;
 }
