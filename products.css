@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    background-image: url("https://sensientpharma.com/wp-content/uploads/2019/03/marble-1.jpg");
+}
+
+h1 {
+    font-size: 45px;
+    color: #000;
+    font-family: Arial;
+    margin: 10px 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #000;
+    font-family: Arial;
+    margin: 10px 10px;
+}
+
+h3 {
+    color: #000;
+    font-family: Arial;
+    margin: 10px 10px;
+}
+
+#logo-toko{
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+nav {
+    margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #91dd77;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul{
+    width: 100%;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    color: #000;
+    padding: 20px;
+    margin : 0 125px;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav li:hover{
+    background-color: #ddc377;
+}
+
+
+.our-products {
+    background-image: url("https://images.pexels.com/photos/870903/pexels-photo-870903.jpeg?cs=srgb&dl=cellphone-device-electronics-870903.jpg&fm=jpg");
+    height: 500px;
+    background-size: cover;
+}
+
+.our-products h1 {
+    position: absolute;
+    left : 25%;
+    top: 25%;
+}
+
+.overlay{
+    background: rgba(231, 252, 219, 0.555);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;}
+
+.brand-name {
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    background-color: #ddc377;
+    width: 100%;
+    padding: 30px;
+}
+
+.brand-name h2{
+    display: inline-block;
+    color: #fff;
+    font-size: 60px;
+}
+
+.brand-logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+.our-products h1 {
+    display: absolute;
+    color: #000;
+    font-size: 95px;
+    left: 30%;
+    top: 30%;
+}
+
+.boxed-products{
+    display: inline-block;
+    margin: 25px 45px;
+    padding: 10px;
+    box-shadow: 1px 1px 15px 2px #0000001a;
+    text-align: center;
+}
+
+.boxed-products img {
+    height: 300px;
+    width : 250px;
+    text-align: center
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.boxed-products:hover {
+    background-color: #ddc377;
+}
+
+.Banner img{
+    height: 25%;
+    width: 100%;
+}
+
+.sosmed-footer{
+    bottom: 0;
+    background-color: #010e80;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.sosmed-footer img{
+    width: 50px;
+    margin: 10px;
+}
+
