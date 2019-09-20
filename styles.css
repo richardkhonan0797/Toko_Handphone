@@ -56,28 +56,6 @@ nav li:hover{
     padding-top: 12px;
 }
 
-footer{
-    background-color: #91dd77;
-    width: 100%;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-}
-
-footer p{
-    position: relative;
-    display: inline;
-    bottom: 15px;
-    vertical-align: middle;
-    margin: 5px;
-}
-
-footer img{
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-}
-
 .gambar-banner{
     position: relative;
     height: 600px;
@@ -288,6 +266,72 @@ footer img{
     transform: scale(1.2);
 }
 
+/*------footer------*/
+footer{
+    background-color: #91dd77;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    height: 600px;
+}
+
+footer p{
+    position: relative;
+    display: inline;
+    bottom: 15px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.footer-left {
+    margin: 50px;
+    text-align: left;
+    vertical-align:top;
+    float: left;
+}
+.footer-address {
+    display: inline;
+}
+.footer-right {
+    margin:50px;
+    float: right;
+}
+#footer-map {
+    height: 300px;
+    width: 40%;
+    position: absolute;
+    right: 100px;
+
+}
+
+/*footer{
+    background-color: #91dd77;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    position: relative;
+    display: inline;
+    bottom: 15px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
 
 .footer-left {
     display: inline-block;
@@ -309,3 +353,4 @@ footer img{
     height: 500px;
     width: 100%;
 }
+*/
